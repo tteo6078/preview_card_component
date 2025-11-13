@@ -8,15 +8,16 @@ body {
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 0.75rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: hsl(228, 12%, 48%);
+    letter-spacing: 0.5rem;
 }
 h1 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: hsl(212, 21%, 14%);
     margin: 0.5rem 0;
 }
@@ -61,7 +62,7 @@ p {
   color: hsl(158 36% 37%);
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .original-price {
@@ -97,7 +98,7 @@ p {
     margin-right: 0.5rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 400px) {
     .container {
         display: flex;
         flex-direction: row;
